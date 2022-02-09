@@ -16,3 +16,5 @@ Here are some ideas to get you started:
 -->
 https://replit.com/@OlgaChubova/ImpartialStaticDisc#main.py
 https://replit.com/@OlgaChubova/ImpartialStaticDisc#main.py
+https://replit.com/@OlgaChubova/module1#task_1.py
+https://replit.com/@OlgaChubova/module1#task_2.py
