@@ -24,3 +24,4 @@ https://replit.com/@OlgaChubova/module2#task_3.py
 https://replit.com/@OlgaChubova/module2#task_4.py
 https://replit.com/@OlgaChubova/module2#task_5.py
 https://replit.com/@OlgaChubova/module2#task_6.py
+https://replit.com/@OlgaChubova/SlushyDodgerblueConditionals#main.py
