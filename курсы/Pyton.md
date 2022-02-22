@@ -33,5 +33,39 @@ else:
   
   
   
+  
+  # Структура одного сообщения
+  chat_msg_1 = {
+  "text": "Всем приветы в этом чате",
+  "sender": "Васисуалий",
+  "date": "31-01-22 21:00",
+  }
+  
+   chat_msg_2 = {
+  "text": "Йо Йо, какие дела?",
+  "sender": "Мишаня",
+  "date": "31-01-22 22:00",
+  }
+  
+  messages_list = 
+  
+  def print_message(message):
+  print(f"[{message['sender']}]: {message['text']} / {message['date']}")
+  ptint("-" * 50)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
  
 
