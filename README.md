@@ -29,3 +29,4 @@ https://replit.com/@OlgaChubova/SlushyDodgerblueConditionals#main.py
 https://replit.com/@OlgaChubova/MerryLinearUnix#main.py
 https://replit.com/@OlgaChubova/LK#Time.py
 https://replit.com/@OlgaChubova/LK#Time.py
+https://vk.com/doc529875691_633436283?hash=6362f9ef2c4b078a9d&dl=1e8acd50629ab2abac
