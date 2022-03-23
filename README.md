@@ -27,3 +27,4 @@ https://replit.com/@OlgaChubova/module2#task_6.py
 https://replit.com/@OlgaChubova/SlushyDodgerblueConditionals#main.py
 https://replit.com/@OlgaChubova/SlushyDodgerblueConditionals#main.py
 https://replit.com/@OlgaChubova/MerryLinearUnix#main.py
+https://replit.com/@OlgaChubova/LK#Time.py
