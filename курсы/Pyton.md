@@ -64,6 +64,46 @@ else:
       len(corpus)
       
       
+      
+      # 1. Искать "неточное" совпадение
+import nltk
+def mathText(text1,text2): # Создаем функцию, которая посчитает похожи ли два текста
+  distance = ntlk.edit_distance(text1,text2) # Посчитаем расстояние между текстами (насколько они отличаются)
+  average_lenght = (len(text1) + (text2)) / 2 # Посчитаем среднюю длину текстов
+  distance / average_lenght # Примерно насколько тексты отличаются в процентах
+question = "Как дела?" # Вопрос, который мы задаем боту
+if question == "Как дела":
+  print("Дела нормально")
+
+if question == "Как тебя зовут":
+   print ("Меня зовут Скиллбот3000")
+  prin("А как зовут тебя?")
+
+if question == "Какого цвета небо?":
+   print("Небо цвета голубого")
+   
+
+
+
+
+
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+      
   
   
   
