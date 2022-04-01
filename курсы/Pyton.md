@@ -82,11 +82,46 @@ if question == "Как тебя зовут":
 if question == "Какого цвета небо?":
    print("Небо цвета голубого")
    
+   
+   
+Как написать первое приложение
+
+# For loop on a list
+>>> numbers = [2,4,6,8,]
+>>> product = 1
+>>> for number in numbers:
+...    product = product * number
+... 
+>>> print ('The product is:', product)
+The product is: 384
+
+https://replit.com/@OlghaChubova/FrighteningWellinformedProfessionals#main.py
 
 
+print ('https://replit.com/@Leveshov/hask')
+
+def good_password_generator(length):
+    alhabet =  (
+      '0123456789'
+      'amncqcncqlcnbrjrymtlulllu'
+      'BVFCVYHCFUVIUVFIYFIVHJBUI'
+    )
+    result = ''
+    length (например 10) раз повторить:
+      symbol = random.choise(alphabet)
+      result += symbol
+  return result
 
 
+  # good_password_generator
+  #bad_password_generator
 
+  #def funk(a,b,c):
+  #print(a)
+  #result = b * c
+  #return result
+  #result = funk(1, 2, 3)
+  #print(result)
 
 
       
