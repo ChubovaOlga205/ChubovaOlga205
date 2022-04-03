@@ -122,6 +122,73 @@ def good_password_generator(length):
   #return result
   #result = funk(1, 2, 3)
   #print(result)
+  
+  
+  
+  https://replit.com/@OlghaChubova/FrighteningWellinformedProfessionals#main.py
+  print ('https://replit.com/@Leveshov/hask')
+
+def good_password_generator(length):
+    alhabet =  (
+      '0123456789'
+      'amncqcncqlcnbrjrymtlulllu'
+      'BVFCVYHCFUVIUVFIYFIVHJBUI'
+    )
+    result = ''
+    length (например 10) раз повторить:
+      symbol = random.choise(alphabet)
+      result += symbol
+  return result
+
+
+  # good_password_generator
+  #bad_password_generator
+
+  #def funk(a,b,c):
+  #print(a)
+  #result = b * c
+  #return result
+  #result = funk(1, 2, 3)
+  #print(result)
+
+
+
+for pair in database:
+  if matchTaxt(question, pair[question]) < 0.4:
+    answer = random.choice(pair["answer"])
+    print(answer)
+
+  Все шикарно
+
+BOT_CONFIG = {
+  "intents": { # Намерения пользователя
+      "hello": { # Поздороваться
+        "exmples": ["Привет", "Добрый день", "Шалом", "Здрасте", "Здравствуйте", "Доброе время суток"],
+        "Responses": ["Привет, человек", "И вам здрасте", "йоу",]
+     },
+    "bye":{
+      "examples": ["Пока", "До свидания", "Если что-возвращайтесь"]
+    },
+    "responses": ["Маюсь фигней", "Учу Phyton", "Смотрю вебинары Скиллбокс"],    
+  },
+},
+"failure_phrases": ["Йа ничо не понял", "Что-то не понятно", "Я всего лишь бот, сформулируйте попроще"]
+}
+
+
+def isMatching(text1, text2): # Создаем функцию, которая посчитает похожи ли два текста
+  text1 = normalize(text1)
+  text2 = normalize(text2)
+  distance = nltk.edit_distance(text1, text2) #     Посчитаем расстояние между текстами (насколько они отличаются)
+     average_length = (len(text1) + len(text2)) / 2 # Посчитаем среднюю длину текстов
+     return distance / average_length < 0.4
+
+def getIntent(text): # Понимать намерение по тексту
+  all_intent = BOT_CONFIG["intents"]
+  for name, data in all_intents.items(): # Пройти по всем намерениям и положить название в name, и остальное в переменную data
+      for example in data["examples"]: # Пройти по всем примерам этого интента, и положить текст в переменную example
+        if isMathing(text, example): # Если текст совпадает с примером
+  
 
 
       
