@@ -518,8 +518,40 @@ print('сумма',summa)
     4. Тестирование и отладка
     5. Эксплуатация и сопровождение
   
+  public $weight;
+  public $name;
+  peblic $author;
   
-  
+  public function __construct(array $book)
+  {
+    $this->author = $book['author'];
+    $this->weight = $book['weight'];
+    $this->name = $book['name'];
+    $this->pageCount = $book['pageCount'];
+  }
+{
+  public function showbook()
+  {
+    print("Название: " . $this->name . PHP_EOL);
+    print("Автор: " . $this->author . PHP_EOL);
+    print("Количество страниц: )" . $this->pageCount . PHP_EOL);
+    print("Вес книги: " . $this->weight . PHP_EOL);
+  }
+   
+}
+
+$pageCount = 310;
+$weight = 0.450;
+$name = "Мастер и Маргарита";
+$author = "Булгаков М.А.";
+
+$bookArray = [
+"pageCount" => $pageCount,
+"weight" => $weight,
+"name" => $name,
+"author" => $author
+];
+
   
   
   
